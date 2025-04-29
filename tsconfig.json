@@ -18,8 +18,12 @@
     "emitDecoratorMetadata": true,
     "baseUrl": "./",
     "paths": {
-      "@monorepo/*": ["packages_monorepo/*/src"]
+      "@monorepo/*": ["packages_monorepo/*/src"],
+      "@client/*": ["packages_monorepo/client/src/*"],
+      "@server/*": ["packages_monorepo/server/src/*"],
+      "@shared/*": ["packages_monorepo/shared/src/*"]
     }
   },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

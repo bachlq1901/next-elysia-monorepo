@@ -1,7 +1,7 @@
 // client.ts
 import { treaty } from '@elysiajs/eden';
-import type { App } from '@monorepo/server';
+import { eden } from '@shared/configs/eden';
 
-const app = treaty<App>('localhost:3000');
+const app: any = treaty<typeof eden.app>('localhost:8080');
 
 export default app;
