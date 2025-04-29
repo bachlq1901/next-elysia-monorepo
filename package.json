@@ -1,0 +1,20 @@
+{
+  "name": "next-elysia-monorepo",
+  "private": true,
+  "packageManager": "bun@1.0.35",
+  "workspaces": [
+    "packages_monorepo/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "devDependencies": {
+    "turbo": "^1.12.4",
+    "prettier": "^3.2.5"
+  }
+}
