@@ -16,7 +16,7 @@
     "incremental": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@monorepo/*": ["packages_monorepo/*/src"]
     }

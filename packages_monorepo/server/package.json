@@ -9,7 +9,8 @@
     "lint": "eslint src --ext .ts"
   },
   "dependencies": {
-    "elysia": "^0.8.17"
+    "elysia": "^0.8.17",
+    "@elysiajs/cors": "^1.2.0"
   },
   "devDependencies": {
     "bun-types": "latest",
