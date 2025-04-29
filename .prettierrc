@@ -21,6 +21,12 @@
       }
     },
     {
+      "files": "*.tsx",
+      "options": {
+        "parser": "babel-ts"
+      }
+    },
+    {
       "files": "*.json",
       "options": {
         "parser": "json"
